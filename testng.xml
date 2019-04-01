@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite" parallel="none">
+  <!-- pass the environment parameter in to LaunchBrowser -->	
+  <parameter name="environment"  value="work-windows-config"/>
+  <test name="Test">
+    <classes>
+      <class name="testCases.LaunchBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
